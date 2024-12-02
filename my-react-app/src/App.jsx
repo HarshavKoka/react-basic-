@@ -64,7 +64,7 @@ const App = () => {
     <main>
       {tenzies && <Confetti />}
       <h1 className='title'>Tenzies</h1><p>
-        Roll untill all dice are the same.Click each die to freeze it as its current value between rolls.
+        Roll untill all dice are the same.And select the dices and play game.
       </p>
       <div className='dice-container'>
         {diceElements}
